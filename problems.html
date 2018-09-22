@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- imports -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Cringy Cool Computer Club</title>
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+      $('#header').load("header.html", function() {
+        $("#problemsNav").addClass('active');
+      });
+    </script>
+
+    <div class="container">
+      <h1>Cool problems</h1>
+      <p class="card">
+        Here are some cool riddles and computer programming problems (also some math ones).
+      </p>
+      <p class='card'>
+        Hats: 100 hats some black some white, put them on dwarves and line them up in a row. How can the most number of dwarves survive? (Perfect logicians). The only thing that the dwarves can say is the hats color, and they go from tallest to shortest. Tallest person can see all the hats except his own, next tallest can see all the hats in front of him etc<br> 
+        Hats2: 100 hats some black some white some pink<br>
+        Hats3: 1000000 hats 1000000000 different colors / types of hats<br>
+        set [0, 1, 2, ... n-1]. can the sum of 2 permutations of this set in mod n be a permutation of the original set? <br>
+        ex n=3, [0, 1, 2] + [0, 1, 2] = [0, 2, 1] mod 3 which works<br>
+        12 coins. 1 is fake (heavy or light). find it in 3 weighings<br>
+        10 pirates. Strict pecking order. Each proposes a plan to split the gold they just found. Pirates will vote on the plans and if a plan gets 50% or more of the votes it passes, but if it gets less than 50% of the votes the pirate proposing dies. Pirates want to maximize their own gold, and when 2 scenarios result in them getting the same amount of gold they will vote for the situation in which the most pirates die. How much gold can the first pirate get?<br>
+      </p>
+      <p class='card'>
+        What are some ways you can think of to generate the Fibonacci numbers (F0=0, F1=1, FN=FN-1+FN-2)? What ideas are most space and time efficient? 
+        Can you get an exact formula for these numbers? 
+        (Hint: How fast do the Fibonacci numbers grow? Write in big-O notation, 
+        and then assume that the growth is pretty simple, and see if the solution works. 
+        Alternatively try writing the recurrence in terms of matrices and 
+        find a fast way to raise the matrix [[1,1],[1,0]] to a large integer power.)
+      </p>
+      <p class="card">
+        Tic-tac-toe: look up table, brute, genetic, reniforcement learning<br>
+        chopsticks: look up table, brute, genetic<br>
+        battleship: probabilistic analysis<br>
+      </p>
+      <p class="card">
+        huffman encoding<br>
+        error detection<br>
+        caesar cipher etc.<br>
+        RSA<br>
+      </p>
+    </div>
+  </body>
+</html>

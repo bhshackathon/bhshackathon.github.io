@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- imports -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Jokes</title>
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+        $("#header").load("header.html", function() {
+            $('#jokesNav').addClass('active');
+        });
+    </script>
+    <div class="container card">
+        <h1 class="title">Jokes</h1>   
+        <p>Weight for more content later.</p>
+        <p>How is playing the piano similar to most Physics problems?<br> It's better done in a vacuum with no pressure and no one to hear you if you mess up.<br>    
+        </p>
+        <h3>slightly less original jokes</h3>
+        <p>
+        Write the expression for the volume of a thick crust pizza with height "a" and radius "z".<br><br>
+        </p>
+
+        <p>
+         Infinitely many mathematicians walk into a pizza shop and order some water. The first says, "I'll have a drink." The second says, "I'll have half a drink." The third says, "I'll have a quarter of a drink." The barman pulls out just two drinks. The mathematicians are all like, "That's all you're giving us?" The bartender says, "Come on guys. Know your limits."
+        </p>
+          
+        <p>
+            A: "What is the integral of 1/cabin?"<br>
+            B: "log cabin."<br>
+            A: "Nope, houseboat--you forgot the C."<br>
+            <br>
+        </p>
+
+        <p>
+        Q: Why did the chicken cross the road?<br>
+        A: The answer is trivial and is left as an exercise for the reader.<br>
+        <br>
+        </p>
+
+        <p>The B in Benoît B. Mandelbrot stand for Benoît B. Mandelbrot.</p>
+        <br>
+        <p>What do you get when you cross a mosquito with a mountain climber?<br> Nothing. You can't cross a vector and a scalar.</p>
+        <br>
+        <h6 id="fine_print" class="fine_print">Please note not all of these jokes are original, please don't sue us</h6>
+    </div>
+  </body>
+</html>
